@@ -1,5 +1,3 @@
-mkdir -p scripts
-cat << 'EOF' > scripts/run_daily.py
 import datetime
 import pathlib
 import subprocess
@@ -167,4 +165,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-EOF
