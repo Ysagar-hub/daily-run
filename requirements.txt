@@ -1,5 +1,3 @@
-cat << 'EOF' > requirements.txt
 kaggle
 duckdb
 pandas
-EOF
